@@ -24413,8 +24413,8 @@ span.select2-selection.select2-selection--single:focus {
   font-size: 30px;
   color: var(--title-color);
   font-weight: 700;
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   line-height: 60px;
   text-align: center;
   padding: 0 4px 0 0;
@@ -24460,7 +24460,7 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 25px;
     margin-bottom: 25px;
     border-bottom: 1px solid rgba(0, 15, 87, 0.2);
-    gap: 30px;
+    gap: 10px;
     width: 100%;
   }
 }

@@ -24403,14 +24403,13 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 19px;
   border-right: 1px solid rgba(0, 15, 87, 0.2);
   margin-right: 30px;
   padding-right: 30px;
 }
 
 .tab-menu3 button {
-  font-size: 30px;
+  /* font-size: 30px; */
   color: var(--title-color);
   font-weight: 700;
   width: 60px;
@@ -26740,14 +26739,13 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 19px;
   border-right: 1px solid rgba(0, 15, 87, 0.2);
   margin-right: 30px;
   padding-right: 30px;
 }
 
 .tab-menu3 button {
-  font-size: 30px;
+  /* font-size: 30px; */
   color: var(--title-color);
   font-weight: 700;
   width: 65px;

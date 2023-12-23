@@ -24460,7 +24460,7 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 25px;
     margin-bottom: 25px;
     border-bottom: 1px solid rgba(0, 15, 87, 0.2);
-    gap: 10px;
+   
     width: 100%;
   }
 }
@@ -26797,7 +26797,7 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 25px;
     margin-bottom: 25px;
     border-bottom: 1px solid rgba(0, 15, 87, 0.2);
-    gap: 30px;
+    
     width: 100%;
   }
 }

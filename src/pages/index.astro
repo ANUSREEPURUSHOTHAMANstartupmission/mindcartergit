@@ -34,7 +34,7 @@ import Layout from '../layouts/Layout.astro';
                        
                     </div>
                     <div class="col-auto d-none d-xl-block">
-                        <div class="header-button">
+                        <!-- <div class="header-button">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                    
@@ -43,8 +43,8 @@ import Layout from '../layouts/Layout.astro';
                                     </li>
                                 </ul>
                             </nav>
-                            <a target="_blank"  href="https://forms.zohopublic.com/keralastartupmission/form/KeralaStartupMissionMindCarter/formperma/vPsKjH_AJoyoncOCt-p46hRqKsbwFz8DlSHP2kkK5cs" class="th-btn style3 ml-15">Apply Now<i class="fas fa-arrow-right ms-1"></i></a>
-                        </div>
+                            <a href="https://forms.zohopublic.com/keralastartupmission/form/KeralaStartupMissionMindCarter/formperma/vPsKjH_AJoyoncOCt-p46hRqKsbwFz8DlSHP2kkK5cs" target="_blank"  class="th-btn style3 ml-15">Apply Now<i class="fas fa-arrow-right ms-1"></i></a>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@ Hero Area
                         <h1 class="hero-title text-white text-4xl" data-ani="slideindown" data-ani-delay="0.1s" style="text-transform: uppercase;"><span class="text-theme">better</span></h1>
                         <p class="hero-text" data-ani="slideinup" data-ani-delay="0.1s" style="text-transform: uppercase;" >Respect their Uniqueness Improve Productivity retain them
                         </p>
-                        <div class="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
-                            <a href="https://forms.zohopublic.com/keralastartupmission/form/KeralaStartupMissionMindCarter/formperma/vPsKjH_AJoyoncOCt-p46hRqKsbwFz8DlSHP2kkK5cs" target="_blank" class="th-btn style3">Apply Now<i class="fas fa-long-arrow-right ms-2"></i></a>
+                        <div class="btn-group cursor-pointer" data-ani="slideinup" data-ani-delay="0.5s">
+                            <a onclick="openForm()" class="th-btn style3 cursor-pointer">Apply Now<i class="fas fa-long-arrow-right ms-2"></i></a>
                             <!-- <a href="contact.html" class="th-btn style2">CONTACT US<i class="fas fa-long-arrow-right ms-2"></i></a> -->
                         </div>
                     </div>
@@ -104,21 +104,21 @@ About Area
                 <div class="col-xl-6">
                     <div class="about2-title-wrap">
                             <span class="sub-title2 flex"><img class="me-1" src="/mindcartergit/assets/img/icon/subtitle-img2-1.svg" alt="img">About</span>
-                        <p class="mt-n2 mb-25">Welcome to MindCarter&#39;s innovative Personality-Based Coaching Program, designed exclusively for
+                        <p class="mt-n2 mb-25 text-justify">Welcome to MindCarter&#39;s innovative Personality-Based Coaching Program, designed exclusively for
                             start-up founders and their teams. Our program offers a unique and tailored approach to personal and
                             professional development by harnessing the power of individual personality traits to drive success in the
                             dynamic world of entrepreneurship.</p>
-                        <p class="mb-25">Our program is firmly rooted in the profound principles of humanistic psychology, guided by the belief in
+                        <p class="mb-25 text-justify">Our program is firmly rooted in the profound principles of humanistic psychology, guided by the belief in
                             the inherent potential for growth and self-actualization within every individual. We cherish the
                             complete essence of each person, valuing their subjective experiences, rather than reducing them to
                             mere fragments for judgment.</p>
 
-                        <p class="mb-25" style="display: none;" id="ab2" >At MindCarter, we recognize the paramount importance of free will and personal responsibility in
+                        <p class="mb-25 text-justify" style="display: none;" id="ab2" >At MindCarter, we recognize the paramount importance of free will and personal responsibility in
                             shaping human behavior. Our dedication lies in fostering an environment where individuals are
                             empowered to exercise their freedom to choose and take full responsibility for their actions and
                             decisions.</p>
 
-                            <p class="mb-25" style="display: none;" id="ab3">Our mission is clear: to assist founders and their teams in achieving congruent self-perception,
+                            <p class="mb-25 text-justify" style="display: none;" id="ab3">Our mission is clear: to assist founders and their teams in achieving congruent self-perception,
                                 discovering their strengths, and driving personal growth through guided, deep-rooted self-reflection.</p>
                       
                         <a onclick="toggleParagraph()" id="button" class="th-btn px-3 py-2 text-xs cursor-pointer">Read More<i class="far fa-arrow-right ms-2"></i></a>
@@ -135,7 +135,7 @@ Service Area
         <div class="title-area text-center">
             <span class="sub-title6 justify-content-center text-white"><span class="shape left"><span class="dots"></span></span> Why Personality-Based Coaching Matters <span class="shape right"><span class="dots"></span></span> </span>
         </div>
-        <p class=" text-white text-center text-lg">In the fast-paced world of start-ups, every founder and team member brings a distinct set of strengths,
+        <p class=" text-white text-center text-lg ">In the fast-paced world of start-ups, every founder and team member brings a distinct set of strengths,
             weaknesses, and behaviors to the table. At MindCarter, we recognize that these unique traits shape
             decision-making, team work, leadership styles, conflict management, and the overall philosophy of each
             individual. This program focuses on acknowledging and harnessing these distinct qualities to unlock your
@@ -158,7 +158,7 @@ Service Area
                     </div>
                     <div class="service-list_content">
                         <h3 class="service-list_title box-title" data-bs-toggle="modal" data-bs-target="#serviceModal">Personalized Development</h3>
-                        <p class="service-list_text">Tailored coaching and training programs address specific needs, fostering professional development and individual career advancement.</p>
+                        <p class="service-list_text ">Tailored coaching and training programs address specific needs, fostering professional development and individual career advancement.</p>
 
                     </div>
                 </div>
@@ -465,7 +465,7 @@ Service Area
                             <div class="filter-item cat1">
                                 <div class="mission-box">
                                     <h3 class="h4 mission-title">Registration</h3>
-                                    <p class="mission-text">At the outset, candidates express their interest by completing a registration form. This form
+                                    <p class="mission-text text-justify">At the outset, candidates express their interest by completing a registration form. This form
                                         includes details such as their name, email address, and gender.</p>
                                    
                                 </div>
@@ -473,7 +473,7 @@ Service Area
                             <div class="filter-item cat2">
                                 <div class="mission-box">
                                     <h3 class="h4 mission-title">Personality Assessment</h3>
-                                    <p class="mission-text">Following registration, candidates will receive a link to a comprehensive Big Five personality
+                                    <p class="mission-text text-justify">Following registration, candidates will receive a link to a comprehensive Big Five personality
                                         assessment. This assessment is designed to delve into their personality traits and
                                         preferences. The assessment is anticipated to take approximately 25 minutes to complete.</p>
                                    
@@ -482,7 +482,7 @@ Service Area
                             <div class="filter-item cat3">
                                 <div class="mission-box">
                                     <h3 class="h4 mission-title">Individualized Assessment Report</h3>
-                                    <p class="mission-text">Upon completion of the assessment, candidates can instantly download their personalized
+                                    <p class="mission-text text-justify">Upon completion of the assessment, candidates can instantly download their personalized
                                         assessment report. This report will provide a detailed analysis of their personality traits,
                                         shedding light on their strengths, preferences, and areas with potential for growth.</p>
                                    
@@ -492,7 +492,7 @@ Service Area
                             <div class="filter-item cat4">
                                 <div class="mission-box">
                                     <h3 class="h4 mission-title">One-on-One Coaching</h3>
-                                    <p class="mission-text">Armed with the insights from their assessment report, candidates will engage in
+                                    <p class="mission-text text-justify">Armed with the insights from their assessment report, candidates will engage in
                                         individualized one-on-one coaching sessions. These coaching sessions will be tailored to
                                         leverage their unique personality traits, fostering professional growth and personal
                                         development.</p>
@@ -503,7 +503,7 @@ Service Area
                             <div class="filter-item cat5">
                                 <div class="mission-box">
                                     <h3 class="h4 mission-title">Follow-Up Session</h3>
-                                    <p class="mission-text">Upon successfully completing the coaching program, a follow-up session will be scheduled.
+                                    <p class="mission-text text-justify">Upon successfully completing the coaching program, a follow-up session will be scheduled.
                                         The timing of this session will be arranged to accommodate the availability of both the
                                         candidate and the coach. This session will serve as an opportunity to revisit progress,
                                         address any further needs, and solidify the gains made through the coaching program.</p>
@@ -522,6 +522,22 @@ Service Area
     </div>
     <!-- <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0"><img src="/mindcartergit/assets/img/update1/shape/building_1.png" alt="shape"></div> -->
 </div>
+
+
+<div id="overlay" class="overlay z-50">
+    <div class="popup-form lg:w-3/5 md:w-3/4  h-5/6 w-full relative">
+    
+    <span class="z-50 close-btn absolute  top-0 right-0 text-black cursor-pointer"  onclick="closeForm()"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-8 h-8">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+    
+    </span>
+    
+    <iframe src="https://forms.zohopublic.com/keralastartupmission/form/KeralaStartupMissionMindCarter/formperma/vPsKjH_AJoyoncOCt-p46hRqKsbwFz8DlSHP2kkK5cs" class=" w-full h-full"></iframe>
+    </div>
+</div>
+
+
 
 <footer class=" bg-[#0e121d] flex justify-between py-8 text-white">
     
@@ -550,20 +566,54 @@ Service Area
 
 </Layout>
 
-    <script is:inline>
-        function toggleParagraph() {
-         var paragraph = document.getElementById("ab2");
-         var paragraph1 = document.getElementById("ab3");
-         var button = document.getElementById("button");
-   
-         if (paragraph.style.display === "none") {
-           paragraph.style.display = "block";
-           paragraph1.style.display = "block";
-           button.innerHTML = "Read less";
-         } else {
-           paragraph.style.display = "none";
-           paragraph1.style.display = "none";
-           button.innerHTML = "Read more";
-         }
-       }
-   </script>
+<script is:inline>
+	function openForm() {
+	  document.getElementById("overlay").style.display = "flex";
+	}
+  
+	function closeForm() {
+	  document.getElementById("overlay").style.display = "none";
+	}
+  </script>
+
+
+<script is:inline>
+    function toggleParagraph() {
+        var paragraph = document.getElementById("ab2");
+        var paragraph1 = document.getElementById("ab3");
+        var button = document.getElementById("button");
+
+        if (paragraph.style.display === "none") {
+        paragraph.style.display = "block";
+        paragraph1.style.display = "block";
+        button.innerHTML = "Read less";
+        } else {
+        paragraph.style.display = "none";
+        paragraph1.style.display = "none";
+        button.innerHTML = "Read more";
+        }
+    }
+</script>
+
+<style>
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popup-form {
+     
+      padding: 20px;
+	  padding-top: 30px;
+      border-radius: 2px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+  </style>
